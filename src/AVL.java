@@ -2,10 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class AVL<K extends Comparable<K>,V> {
-
-    private Node l;
-
-    public static void main(String[] args) {
+/*    public static void main(String[] args) {
         ArrayList<String> words=new ArrayList<>();
         Collections.addAll(words,"aaa","bbb","ccc","aaa","ddd","eee","aaa","bbb","fff");
         AVL<String,Integer> map=new AVL<>();
@@ -23,21 +20,11 @@ public class AVL<K extends Comparable<K>,V> {
 
 
         map.delete("aaa");
-       // System.out.println("aaa的次数："+map.get("aaa"));
-        //System.out.println("total different words:"+map.size());
-
-        map.delete("bbb");
-       // System.out.println("bbb的次数："+map.get("bbb"));
-        //System.out.println("total different words:"+map.size());
-
-        map.delete("ccc");
-        //System.out.println("ccc的次数："+map.get("ccc"));
-        //System.out.println("total different words:"+map.size());
-
-        map.delete("ddd");
-        //System.out.println("ddd的次数："+map.get("ddd"));
+        System.out.println("aaa的次数："+map.get("aaa"));
         System.out.println("total different words:"+map.size());
-    }
+        System.out.println("是否为平衡二叉树："+map.isBalanced());
+
+    }*/
     private class Node{
         public K k;
         public V v;
